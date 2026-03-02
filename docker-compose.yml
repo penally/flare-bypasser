@@ -18,7 +18,7 @@ services:
     container_name: flare-bypasser
     image: flare-bypasser:latest
     ports:
-      - 20080:8080
+      - 5639:5639
     #volumes:
       #- ./var:/opt/flare_bypasser/var/
       #< Uncomment if you persistent logs between runs
